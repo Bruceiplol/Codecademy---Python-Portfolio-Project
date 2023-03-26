@@ -1,6 +1,5 @@
 import random
 
-
 #Design Cards
 #suits = ["Spades", "Hearts","Clubs", "Diamonds"]]
 suits = ["\u2664", "\u2661","\u2667", "\u2662"]
