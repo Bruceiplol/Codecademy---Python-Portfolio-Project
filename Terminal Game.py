@@ -182,17 +182,14 @@ class Dealer:
 
 
 
-
+#In-game
 name = input("Enter your name: ")
 age = input("Enter your age: ")
 bank = int(input("Enter your starting amount: "))
-
-# Create the player and dealer objects
 player = Player(name, age, bank)
 dealer = Dealer()
 
 def play():    
-    # Clear hands and reshuffle the deck
     player.reset()
     dealer.reset()
     reset_deck()
@@ -265,7 +262,7 @@ def play():
                     else:
                         print ("Please only answer with Y/N")
             else:
-                print("Dealer's score is not 21. Game continue.")
+                print("Dealer's score is not 21. Game continues.")
                 break
         elif ans.lower() in ["no", "n"]:
             break
@@ -277,7 +274,7 @@ def play():
     # Check for dealer blackjack
     while dealer.score == 21:
         dealer.show_hand_2()
-        ans = input(f'Dealer got BlackJack! You lost!\nYour pocket remains: ${player.bank}\nDo you wanna play again? Y/N\n')
+        ans = input(f'Dealer got BlackJack! You lose!\nYour pocket remains: ${player.bank}\nDo you wanna play again? Y/N\n')
         if ans == "Y" or ans =="y":
             play()   
         elif ans == "N" or ans =="n":
