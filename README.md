@@ -8,7 +8,10 @@ This is a simple command-line implementation of the popular casino game, Blackja
 4. The game will continue until you quit or run out of chips.
 
 # Rules of the Game
-The goal of the game is to get a hand value of 21 or as close to 21 as possible without going over (bust). The game starts with the player and dealer each receiving two cards. The player can choose to "hit" and receive another card, or "stand" and keep their current hand. The dealer must hit until their hand value is at least 17. If the player's hand value is higher than the dealer's hand value and does not bust, the player wins. If the dealer's hand value is higher than the player's hand value and does not bust, the dealer wins. If both hands have the same value, it is a tie.
+The goal of the game is to get a hand value of 21 or as close to 21 as possible without going over (bust). 
+The game starts with the player and dealer each receiving two cards. The player can choose to "hit", "split", "double", "insurance" or "surrender" under different situations. 
+The dealer must hit until their hand value is at least 17. 
+If the player's hand value is higher than the dealer's hand value and does not bust, the player wins. If the dealer's hand value is higher than the player's hand value and does not bust, the dealer wins. If both hands have the same value, it is a tie.
 
 # Features
 - Simple command-line interface
