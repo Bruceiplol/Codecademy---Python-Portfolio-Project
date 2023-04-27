@@ -21,7 +21,7 @@ If the player's hand value is higher than the dealer's hand value and does not b
 - Game continues until player quits or runs out of chips
 - Displays player and dealer hands and current chip count
 
-# Future Development
+# Future Improvement
 - Create a graphical user interface for easier gameplay
 - Add multiplayer functionality
 
