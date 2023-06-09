@@ -184,7 +184,7 @@ class Dealer:
 #In-game
 name = input("Enter your name: ")
 age = input("Enter your age: ")
-bank = int(input("Enter your starting amount: "))
+bank = int(input("Enter your starting amount: $"))
 player = Player(name, age, bank)
 dealer = Dealer()
 
